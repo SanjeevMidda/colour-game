@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.colorContainer {
+  display: flex;
+  gap: 10px;
+  width: 150px;
+  flex-wrap: wrap;
+}
+
+.findColor {
+  position: absolute;
+  top: 70px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color {
+  transition: all 300ms;
+}
+
+.color:hover {
+  transform: scale(1.4);
+}
